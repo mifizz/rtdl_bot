@@ -318,7 +318,7 @@ def dl_queue_handler() -> None:
 ### BOT COMMANDS
 
 # start
-text_welcome: str = "Тут будет приветственный текст и объяснение, как этим ботом пользоваться"
+text_welcome: str = "Привет, я бот для скачивания видео с рутуба (rutube.ru)!\n\nЧтобы скачать видео, отправь мне ссылку на него и я предложу варианты для скачивания!"
 @bot.message_handler(commands=["start"])
 def bot_start(message) -> None:
     bot.send_message(message.chat.id, text_welcome)
