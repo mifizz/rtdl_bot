@@ -1,0 +1,6 @@
+requests
+pytelegrambotapi
+python-dotenv
+pillow
+ffmpeg-python
+fake-useragent
